@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoginUsingApi</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="successfully_login">You are successfully login</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="empty_phone_error">Empty contact number</string>
+    <string name="empty_password_error">Empty password</string>
+    <string name="username_or_password_incorrect">Username or Password is Incorrect</string>
+</resources>
