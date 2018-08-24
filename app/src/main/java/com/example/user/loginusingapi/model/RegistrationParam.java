@@ -5,6 +5,8 @@ import com.google.gson.annotations.SerializedName;
 
 public class RegistrationParam {
 
+    private String firstName;
+    private String lastName;
     @SerializedName("getUserName")
     @Expose
     private String getUserName;
@@ -61,4 +63,19 @@ public class RegistrationParam {
         this.getPassword = getPassword;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
